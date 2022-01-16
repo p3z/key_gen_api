@@ -4,7 +4,8 @@
   "description": "A small libary to aid in the generation of license keys (not cryptographically significant)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "api.js"
   },
   "repository": {
     "type": "git",
