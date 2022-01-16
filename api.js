@@ -5,7 +5,8 @@ function randomQuery(o,r,n="false"){let t=Math.floor(Math.random()*(r-o+1)+o);re
 const express = require('express');
 var router = express.Router();
 const app = express();
-const port = 3000;
+// const port = 3000; // local
+const port = process.env.PORT || 80
 
 app.use(express.static(__dirname + '/public')); // Media assets are located here
 
