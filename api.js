@@ -6,7 +6,7 @@ const express = require('express');
 var router = express.Router();
 const app = express();
 // const port = 3000; // local
-const port = process.env.PORT || 80
+const port = process.env.PORT
 
 app.use(express.static(__dirname + '/public')); // Media assets are located here
 
